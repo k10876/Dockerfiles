@@ -95,5 +95,3 @@ RUN bash -c ' \
     wget https://raw.githubusercontent.com/HariSekhon/devops-python-tools/master/jython_autoinstall.exp && \
     bash jython_install.sh && \
     rm -f jython_install.sh jython_autoinstall.exp'
-
-CMD ["/bin/bash"]
